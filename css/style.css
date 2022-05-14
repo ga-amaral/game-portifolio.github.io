@@ -1,0 +1,140 @@
+/*Configs do site*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 15px;
+    background: #00162b;
+}
+
+#container{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 auto;
+    background: #fff;
+    min-width: 900px;
+    max-width: 1200px;
+}
+
+/*Textos*/
+
+#conteudo-principal h1{
+    margin: 15px;
+    padding-left: 15px;
+}
+
+#conteudo-principal .jogo h2,
+#conteudo-principal .video h2{
+    font-size: 1.5em;
+    color: rgba(187, 12, 12, 0.938);
+    margin: 10px;
+    padding-top: 15px;
+}
+#conteudo-principal .jogo p{
+    font-size: 1.1em;
+    margin: 10px;
+    padding-bottom: 15px;
+}
+
+#rodape p{
+    text-align: center;
+    font-size: 1.2em;
+    padding: 15px;
+}
+
+/*Configuração do topo*/
+
+#topo {
+    background: url(../images/background.png) no-repeat center top;
+    width: 100%;
+    height: 478px;
+}
+
+#logo-marca {
+    font-weight: bolder;
+}
+
+#logo-marca h1 {
+    font-size: 120px;
+    -webkit-text-stroke: 4px black;
+    color: gray;
+    padding-top: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+#review {
+    color: #fd042e;
+}
+
+#nav-side-bar {
+    margin: 0 auto;
+}
+
+#nav-side-bar ul {
+
+    padding-top: 230px;
+}
+
+.primeiro{
+    margin-left: 240px;
+}
+
+#nav-side-bar ul li {
+    list-style: none;
+    display: block;
+    padding: 10px 40px;
+    float: left;
+}
+
+#nav-side-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 2em;
+}
+#nav-side-bar ul li a:hover{
+    background: rgba(102, 94, 94, 0.466);
+    cursor: pointer;
+}
+
+/*Diplay colunas*/
+
+#conteudo-principal{
+    float: left;
+    width: 65%;
+}
+
+#conteudo-secundario{
+    float: right;
+    margin: 15px;
+    width: 30%;
+    background: white;
+}
+
+/*Conteúdo do site*/
+
+#conteudo-principal .jogo,
+#conteudo-principal .video
+{
+    background: rgb(182, 178, 178);
+    margin: 15px;
+}
+
+
+
+#conteudo-principal .jogo img
+{
+    width: 80%;
+    margin: 10px 0;
+    margin-left: 65px;
+}
+
+#conteudo-principal .video iframe{
+    width: 80%;
+    height: 450px;
+    margin: 10px 0;
+    margin-left: 65px;
+}
