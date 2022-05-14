@@ -79,13 +79,13 @@ body {
 }
 
 .primeiro{
-    margin-left: 240px;
+    margin-left: 200px;
 }
 
 #nav-side-bar ul li {
     list-style: none;
     display: block;
-    padding: 10px 40px;
+    padding: 10px 20px;
     float: left;
 }
 
